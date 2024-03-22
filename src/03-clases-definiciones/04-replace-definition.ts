@@ -1,4 +1,4 @@
-import { SuperHero } from './extra/classes';
+import { HeroRenamedWithF2 as HeroRenamedlocallyInThisFile } from './extra/classes';
 
 //* 
 //*     Objetivo:
@@ -11,9 +11,9 @@ import { SuperHero } from './extra/classes';
 //* 
 
 
-const wolverine = new SuperHero();
-const ironman   = new SuperHero();
-const spiderman = new SuperHero();
+const wolverine = new HeroRenamedlocallyInThisFile();
+const ironman   = new HeroRenamedlocallyInThisFile();
+const spiderman = new HeroRenamedlocallyInThisFile();
 
 function greet() {
     return 'El SuperHero Wolverine es genial!';

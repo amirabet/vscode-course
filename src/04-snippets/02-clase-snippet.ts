@@ -1,3 +1,13 @@
+class Superhero {
+    constructor() {
+      console.log('Superhero initialized');
+    }
+
+    showSuperhero() {
+      return this;
+    }
+}
+
 
 
 
